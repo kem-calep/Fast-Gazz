@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d3d3d;
+    padding: 10px 30px;
+    color: white;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+.search-container {
+    text-align: center;
+    background-color: #3d3d3d;
+    padding: 10px;
+}
+
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    height: 70vh;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #3d3d3d;
+    color: white;
+    padding: 50px;
+}
+
+.left-section h1 {
+    font-size: 40px;
+}
+
+.left-section .tagline {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.left-section .truck-img {
+    margin-top: 30px;
+    width: 300px;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #2d4a2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gas-img {
+    width: 250px;
+}
+
+/* Footer */
+footer {
+    background-color: #3d3d3d;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #4d6a4d, #1f3b1f);
+    padding: 10px 30px;
+    color: white;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+nav a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+.search-container {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #4d6a4d, #1f3b1f);
+}
+
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    background: linear-gradient(to right, #6d8b6d, #1f3b1f);
+    padding: 20px;
+}
+
+/* Products Grid */
+.products {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 8px;
+}
+
+.product p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+.box {
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.box h3 {
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #1f3b1f;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4d6a4d, #cde3cd);
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Search bar */
+.search-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+
+/* Main section */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Product image */
+.product-image {
+    text-align: center;
+}
+
+.product-image img {
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4d6a4d, #cde3cd);
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Search bar */
+.search-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+
+/* Main section */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Product image */
+.product-image {
+    text-align: center;
+}
+
+.product-image img {
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+}
+
+.price {
+    background-color: #ddd;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* Product info */
+.product-info {
+    text-align: center;
+}
+
+.product-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.order-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
