@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(59, 59, 55);
+    box-sizing: border-box;
+
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(59, 59, 55);
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+   
+}
+header .logo img {
+    height: 70px;
+    margin-right: 5px;
+    display: flex;
+ 
+}
+/* Footer */
+footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 45px;
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding-right: 10px;
+    font-weight: 500px;
+    text-align: center;
+    align-items: center;
+    position: 410px 53px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.navbar {
+    align-items: center;
+    width: 2000%;
+}
+
+.about_us {
+    margin-left: 10px;
+    color: aliceblue;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Search Bar */
+.search-container {
+    text-align: center;
+    background-color: rgb(59, 59, 55);
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 80px;
+}
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+/* Main Layout */
+main {
+    display: flex;
+    background: linear-gradient(to right, #6d8b6d, #1f3b1f);
+    padding: 20px;
+}
+
+/* Products Grid */
+.products {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 50%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.why-choose-us{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.choose-items {
+    flex: 1 1 45%;
+    height: 200px;
+    border-radius: 10px;
+}
+.choose-top {
+    text-align: center;
+    font-size: 1.3rem;
+}
+#story {
+    background-color: #9b989b;
+
+}
+#Testimonies {
+    background-color: #959090;
+}
+.section-heading {
+    font-size: 2.52rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    
+}
+.box {
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.box h3 {
+    margin: 0;
+}
+/* Main section */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Product image */
+.product-image {
+    text-align: center;
+}
+

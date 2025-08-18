@@ -1,0 +1,137 @@
+/* Footer */
+footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 45px;
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d3d3d;
+    box-sizing: border-box;
+
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d3d3d;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    display: flex;
+   
+}
+header .logo img {
+    height: 70px;
+    margin-right: 5px;
+    display: flex;
+   
+}
+nav a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding-right: 10px;
+    font-weight: 500px;
+    text-align: center;
+    align-items: center;
+    position: 410px 53px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.navbar {
+    align-items: center;
+    width: 90%;
+}
+
+.about_us {
+    margin-left: 10px;
+    color: aliceblue;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Search Bar */
+.search-container {
+    text-align: center;
+    background-color: #3d3d3d;
+    padding: 10px;
+}
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+/* Main section */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Product image */
+.product-image {
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 70px;
+
+}
+.product-image img {
+    width: 300px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+}
+.price {
+    background-color: #ddd;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 70px;
+}
+/* Product info */
+.product-info {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.product-info h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+.order-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+

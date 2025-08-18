@@ -1,0 +1,139 @@
+footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 45px;
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d3d3d;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d3d3d;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    display: flex;
+   
+}
+header .logo img {
+    height: 70px;
+    margin-right: 5px;
+    display: flex;
+    
+}
+nav a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding-right: 10px;
+    font-weight: 500px;
+    text-align: center;
+    align-items: center;
+    position: 410px 53px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.navbar {
+    align-items: center;
+    width: 130%;
+}
+
+.about_us {
+    margin-left: 10px;
+    color: rgb(6, 12, 16);
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Search Bar */
+.search-container {
+    text-align: center;
+    background-color: #3d3d3d;
+    padding: 10px;
+}
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+.container {
+      width: 80%;
+            margin: 40px auto;
+            background-color: #444040;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0.1);
+            border-radius: 50px;
+
+}
+.header {
+            background-color: #3e433e;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 0.25px;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 35px;
+    margin-left: 150px;
+    
+}
+.form-registration {
+    border-radius: 50px;
+}
+.register-form {
+    padding: 10px 20px;
+    background-color: #0e0f0e;
+    color: rgb(234, 218, 229);
+    font-weight: 500px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 5px;
+    
+}
+
+

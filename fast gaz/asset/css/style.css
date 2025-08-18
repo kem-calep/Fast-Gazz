@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d3d3d;
+    box-sizing: border-box;
+
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d3d3d;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    display: flex;
+   
+}
+header .logo img {
+    height: 70px;
+    margin-right: 5px;
+    display: flex;
+    height: 90px;
+    width: 50px;
+}
+nav a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding-right: 10px;
+    font-weight: 500px;
+    text-align: center;
+    align-items: center;
+    position: 410px 53px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.navbar {
+    align-items: center;
+    width: 90%;
+}
+
+.about_us {
+    margin-left: 10px;
+    color: aliceblue;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Search Bar */
+.search-container {
+    text-align: center;
+    background-color: #3d3d3d;
+    padding: 10px;
+}
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+/* Main Section */
+main {
+    display: flex;
+    height: 70vh;
+}
+.left-section {
+    flex: 1;
+    background-color: #3d3d3d;
+    color: rgb(15, 15, 15);
+    padding: 50px;
+    text-shadow: #3d3d3d;
+    padding-top: 50px;
+}
+.left-section h1 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+.left-section .tagline {
+    font-style: italic;
+    margin: 10px 0;
+    text-shadow: #413f3f;
+}
+.left-section .truck-img {
+    margin-top: 30px;
+    width: 300px;
+    padding-top: 70px;
+}
+.left-section .gas industry-img {
+    margin-top: 70px;
+    width: 100px;
+    padding-top: 90px;
+    margin-left: 50px;
+}
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 90px;
+}
+.gas-img {
+    width: px;
+}
+/* Footer */
+footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 45px;
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+header .logo img {
+    height: 70px;
+    margin-right: 5px;
+}
+/* Search Bar */
+.search-container {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+}
+
+.search-container input {
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+/* Products Grid */
+.products {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d4a2f;
+    width: 300px;
+    height: 108%;
+    
+}
+.horizontal-container2 {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #195ac3;
+    width: 300px;
+    height: 108%;
+    border-radius: 20px;
+    
+}
+.item {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container {
+    position: relative;
+    width: 110%;
+}
+.background-image {
+    width: 50%;
+    height: 50%;
+}
+.front-image {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.aboutus {
+    text-align: center;
+    color: rgb(244, 245, 247);
+    padding-bottom: 150%;
+    padding-left: 80px;
+}
+
+
+
+
+
+
+
+
+
