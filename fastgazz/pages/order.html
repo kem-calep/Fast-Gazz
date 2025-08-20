@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="FAST GAZZ — Reliable online gas distribution in Cameroon. Order cooking gas refills and accessories with fast delivery." />
+  <title>Order | FAST GAZZ</title>
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../index.html">
+      <img src="../assets/img/logo.svg" alt="FAST GAZZ logo" class="logo" />
+      <span>FAST GAZZ</span>
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Open menu">
+    <label for="menu-toggle" class="hamburger" aria-hidden="true">&#9776;</label>
+    <nav class="menu">
+      <a href="../index.html">Home</a>
+      <a href="../pages/products.html">Products</a>
+      <a href="../pages/order.html">Order</a>
+      <a href="../pages/about.html">About</a>
+      <a class="btn" href="../pages/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Place Your Order</h1>
+  <p class="muted">We currently deliver in Yaoundé.</p>
+  <form class="form" action="../backend/order_process.php" method="post">
+    <div class="grid-2">
+      <label>Full Name
+        <input type="text" name="name" placeholder="Enter your full name" required>
+      </label>
+      <label>Phone (WhatsApp preferred)
+        <input type="tel" name="phone" placeholder="+237 6xx xxx xxx" required>
+      </label>
+    </div>
+    <label>Delivery City
+      <select name="city" required>
+        <option value="">Select your city</option>
+        <option>Yaoundé</option>
+        <option>Douala</option>
+        <option>Buea</option>
+        <option>Limbe</option>
+        <option>Bamenda</option>
+      </select>
+    </label>
+    <label>Address / Landmark
+      <input type="text" name="address" placeholder="e.g., Carrefour Biyem-Assi, opposite pharmacy" required>
+    </label>
+    <label>Product
+      <select name="product" required>
+        <option value="">Choose a product</option>
+        <option>Cam gas — 6,500 XAF</option>
+        <option> Total — 6,500 XAF</option>
+        <option>Afrique gas — 6,500 XAF</option>
+        <option>Green oil — 6,500 XAF</option>
+        <option>sctm — 6,500 XAF</option>
+        <option>eco gas — 3,000 XAF</option>
+      </select>
+    </label>
+    <label>Quantity
+      <input type="number" name="qty" min="1" value="1" required>
+    </label>
+    <label>Notes (optional)
+      <textarea name="notes" rows="4" placeholder="Gate code, preferred time, extra info..."></textarea>
+    </label>
+    <div class="form-actions">
+      <button type="submit" class="btn primary">Submit Order</button>
+      <a class="btn" href="products.html">Back to Products</a>
+    </div>
+    <p class="small muted">Note: This is a demo form. Connect it to a backend to process real orders.</p>
+  </form>
+</main>
+<footer class="site-footer">
+  <div class="container grid-3">
+    <div>
+      <h4>FAST GAZZ</h4>
+      <p>Reliable online gas distribution across Cameroon.</p>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="../pages/contact.html">Contact us</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Safety tips</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get updates</h4>
+      <form action="backend/order_process.php" method="POST">
+  <input type="text" name="customer_name" placeholder="Full Name" required>
+  <input type="text" name="phone_number" placeholder="Phone Number" required>
+  <input type="text" name="address" placeholder="Delivery Address" required>
+  <input type="text" name="product" placeholder="Product (e.g cam gas)" required>
+  <input type="number" name="quantity" placeholder="Quantity" min="1" required>
+  <textarea name="notes" placeholder="Additional Notes (optional)"></textarea>
+  <button type="submit">Submit order</button>
+</form>
+
+    </div>
+  </div>
+  <div class="container small print">
+    <p>&copy; 2025 FAST GAZZ. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
