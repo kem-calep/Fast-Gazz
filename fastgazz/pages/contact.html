@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="FAST GAZZ — Reliable online gas distribution in Cameroon. Order cooking gas refills and accessories with fast delivery." />
   <title>Contact | FAST GAZZ</title>
-  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="../assets/img/fast gazz/Logo.png" type="image/svg+xml" />
   <link rel="stylesheet" href="../assets/css/styles.css" />
 
 
@@ -15,7 +15,7 @@
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="../index.html">
-      <img src="../assets/img/logo.svg" alt="FAST GAZZ logo" class="logo" />
+      <img src="../assets/img/fast gazz/Logo.png" alt="FAST GAZZ logo" class="logo" />
       <span>FAST GAZZ</span>
     </a>
     <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Open menu">
@@ -33,7 +33,7 @@
 <main class="container">
   <h1>Contact Us</h1>
   <p>Questions or partnership inquiries? Send us a message.</p>
-  <form class="form" action="#" method="post" onsubmit="return false">
+  <form class="form" action="../backend/contact_process.php" method="post">
     <div class="grid-2">
       <label>Name
         <input type="text" name="name" required>
@@ -51,8 +51,9 @@
     <div class="form-actions">
       <button type="submit" class="btn primary">Send Message</button>
       <a class="btn" href="../index.html">Back Home</a>
+      <p class="small muted">You can also reach us on WhatsApp: +237 680267284/+237 692237441</p>
     </div>
-    <p class="small muted">You can also reach us on WhatsApp: +237 6xx xxx xxx</p>
+    
   </form>
 </main>
 <footer class="site-footer">
@@ -65,17 +66,18 @@
       <h4>Support</h4>
       <ul>
         <li><a href="../pages/contact.html">Contact us</a></li>
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Safety tips</a></li>
       </ul>
     </div>
     <div>
       <h4>Get updates</h4>
-      <form class="form" action="../backend/contact_process.php" method="post">
-
-        <input type="email" placeholder="Your email" aria-label="Email">
-        <button type="submit">Subscribe</button>
-      </form>
+      <form action="../backend/contact_process.php" method="post">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <input type="text" name="subject" required>
+  <input type="email" placeholder="Your email" aria-label="Email">
+  <textarea name="message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
     </div>
   </div>
   <div class="container small print">
